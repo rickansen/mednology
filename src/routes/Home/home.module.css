@@ -1,0 +1,32 @@
+.address {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.input {
+    height: 35px;
+    width: 89.33vw;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+form {
+    position: relative;
+}
+.search {
+    position: absolute;
+    top: 14px;
+    left: 8vw;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
