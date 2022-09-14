@@ -9,9 +9,9 @@ const Splash = () => {
   return (
     <>
       <div className="imgContainer">
-        <img src="https://via.placeholder.com/150?text=Logo" alt="logo"></img>
+        <img src="https://via.placeholder.com/174?text=Logo" alt="logo"></img>
       </div>
-      <Button>GET STARTED</Button>
+      <Button link="Login">GET STARTED</Button>
     </>
   );
 };
