@@ -1,5 +1,7 @@
 .imgContainer {
     margin-top: 124px;
+    margin-bottom: 151px;
+    text-align: center;
 }
 
 .buttons {
@@ -8,3 +10,6 @@
     gap: 10px;
 }
 
+.btmImg {
+margin-top: 18px;
+}

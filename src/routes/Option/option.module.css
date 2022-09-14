@@ -1,0 +1,16 @@
+.imgContainer {
+    margin-top: 124px;
+    margin-bottom: 97px;
+    text-align: center;
+}
+
+.option {
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img {
+    border-radius: 20px;
+}
