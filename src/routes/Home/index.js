@@ -6,7 +6,7 @@ import Header from '../../component/Header/header';
 import Menu from '../../component/Menu/menu';
 import Features from './Features/features';
 
-import PromoPmat from '../../assets/promo-pmat1.png';
+import PromoPmat from '../../assets/promo-pmat1.webp';
 
 import { ReactComponent as Next } from '../../assets/next.svg';
 import { ReactComponent as Search } from '../../assets/search.svg';

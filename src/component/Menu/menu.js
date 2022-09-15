@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './menu.module.css';
 
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 import { ReactComponent as Home } from '../../assets/home.svg';
 import { ReactComponent as RemindMenu } from '../../assets/remind-menu.svg';
 import { ReactComponent as User } from '../../assets/user.svg';
@@ -13,9 +14,13 @@ const Menu = () => {
     <>
       <div className={styles.menu}>
         {' '}
-        <Home className={styles.icon} />
+        <Link to="/">
+          <Home className={styles.icon} />
+        </Link>
         <User className={styles.icon} />
-        <RemindMenu className={styles.icon} />
+        <Link to="/Reminder">
+          <RemindMenu className={styles.icon} />
+        </Link>
         <Mail className={styles.icon} />
         <Cart className={styles.icon} />
       </div>

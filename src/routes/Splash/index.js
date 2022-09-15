@@ -8,7 +8,7 @@ const Splash = () => {
   return (
     <>
       <div className={styles.imgContainer}>
-        <img src={Logo} alt="Logo" width="174" height="174" />
+        <img src={Logo} alt="Logo" width="200" />
         <span>MEDNOLOGY</span>
       </div>
 
