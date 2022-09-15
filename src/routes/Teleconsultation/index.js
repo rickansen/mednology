@@ -1,13 +1,33 @@
 import React from 'react';
-//import styles from './teleconsultation.module.css';
+import styles from './teleconsultation.module.css';
+
+import Telecon from '../../assets/teleconsult.webp';
 
 import Header from '../../component/Header/header';
-
+import Menu from '../../component/Menu/menu';
 const Teleconsultation = () => {
   return (
     <>
       <Header icon="back">TELECONSULTATION</Header>
-      <h1>this is teleconsultation</h1>
+      <Menu />
+
+      <img src={Telecon} className={styles.img} alt="Doctor" />
+
+      <form className={styles.form}>
+        <label className={styles.flex}>
+          First Name
+          <input type="text" className={styles.input} />
+        </label>
+        <label className={styles.flex}>
+          Last Name
+          <input type="text" className={styles.input} />
+        </label>
+        <label className={styles.flex}>
+          Mobile Number
+          <input type="text" className={styles.input} />
+        </label>
+        <button className={styles.button}>Next</button>
+      </form>
     </>
   );
 };
