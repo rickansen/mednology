@@ -1,6 +1,10 @@
 .container {
-    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 89.33vw;
     border-bottom: 1px solid black;
+    margin: 25px auto;
 }
 
 .title {
@@ -13,6 +17,11 @@
     color: rgb(126, 126, 126);
     font-size: 15px;
     margin: 10px 0;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .button {

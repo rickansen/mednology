@@ -5,10 +5,15 @@ const Address = ({ title, address, number }) => {
   return (
     <>
       <div className={styles.container}>
-        <p className={styles.title}>{title}</p>
-        <p className={styles.address}>{address}</p>
-        <p className={styles.address}>{number}</p>{' '}
-        <button className={styles.button}>VIEW AVAILABLE PRODUCTS</button>
+        <div>
+          <p className={styles.title}>{title}</p>
+          <p className={styles.address}>{address}</p>
+          <p className={styles.address}>{number}</p>
+        </div>
+
+        <div className={styles.buttonContainer}>
+          <button className={styles.button}>VIEW AVAILABLE PRODUCTS</button>
+        </div>
       </div>
     </>
   );
