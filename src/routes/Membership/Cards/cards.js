@@ -1,21 +1,17 @@
 import React from 'react';
 import styles from './cards.module.css';
 
-import Logo from '../../../assets/logo.png';
 import { ReactComponent as Next } from '../../../assets/next.svg';
 
-const Cards = () => {
+const Cards = ({ title, desc, benefits, logo }) => {
   return (
     <>
       <div className={styles.container}>
-        <img src={Logo} width="100" height="100" alt="membership benefits" />
+        <img src={logo} width="100" height="100" alt="membership benefits" />
         <div className={styles.descContainer}>
-          <h2>Membership Name</h2>
-          <p>
-            Membership description - Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et{' '}
-          </p>
-          <span>Benefits...</span>
+          <h2 className={styles.title}>{title}</h2>
+          <p className={styles.desc}>{desc}</p>
+          <span className={styles.benefits}>{benefits}</span>
         </div>
         <Next className={styles.svg} />
       </div>
