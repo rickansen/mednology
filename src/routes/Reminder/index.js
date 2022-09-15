@@ -1,15 +1,15 @@
 import React from 'react';
-//import styles from './converter.module.css';
+//import styles from './reminder.module.css';
 
 import Header from '../../component/Header/header';
 
-const Converter = () => {
+const Reminder = () => {
   return (
     <>
-      <Header icon="back">CONVERTER</Header>
-      <h1>this is converter</h1>
+      <Header icon="back">REMINDER</Header>
+      <h1>this is reminder</h1>
     </>
   );
 };
 
-export default Converter;
+export default Reminder;
