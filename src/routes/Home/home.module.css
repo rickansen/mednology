@@ -55,3 +55,7 @@ form {
     height: 100%;
     background-color: rgb(130, 130, 130);
 }
+
+.promoPmat {
+    width: 100vw;
+}

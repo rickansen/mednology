@@ -1,10 +1,12 @@
 import React from 'react';
 import styles from './home.module.css';
+import { Link } from 'react-router-dom';
 
 import Header from '../../component/Header/header';
+import Menu from '../../component/Menu/menu';
 import Features from './Features/features';
 
-import { Link } from 'react-router-dom';
+import PromoPmat from '../../assets/promo-pmat1.png';
 
 import { ReactComponent as Next } from '../../assets/next.svg';
 import { ReactComponent as Search } from '../../assets/search.svg';
@@ -14,6 +16,7 @@ const Home = () => {
   return (
     <>
       <Header icon="menu">MEDNOLOGY</Header>
+      <Menu />
       <div className={styles.address}>
         <span>Deliver to 123 House, Street, City</span>
         <Next />
@@ -23,8 +26,9 @@ const Home = () => {
         <Search className={styles.search} />
       </form>
       <img
-        src="https://via.placeholder.com/375x180?text=Promo"
-        alt="Promos"
+        className={styles.promoPmat}
+        src={PromoPmat}
+        alt="Promo Pubmat"
       ></img>
       <div>
         <div className={styles.container}>
