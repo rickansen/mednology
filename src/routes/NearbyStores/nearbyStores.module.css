@@ -1,3 +1,7 @@
+.body {
+    padding-bottom: 65px;
+}
+
 .container {
     display: flex;
     flex-direction: column;

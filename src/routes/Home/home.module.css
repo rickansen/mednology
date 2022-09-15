@@ -1,3 +1,7 @@
+.body {
+ padding-bottom: 65px;
+}
+
 .address {
     font-size: 12px;
     display: flex;
