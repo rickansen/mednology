@@ -16,3 +16,8 @@
 .svg {
     margin: 16px;
 }
+
+.link {
+    text-decoration: none;
+    color: black;
+}

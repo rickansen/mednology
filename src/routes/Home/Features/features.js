@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './features.module.css';
+import { Link } from 'react-router-dom';
 
 import { ReactComponent as Location } from '../../../assets/location.svg';
 import { ReactComponent as Release } from '../../../assets/release.svg';
@@ -13,7 +14,7 @@ import { ReactComponent as Others } from '../../../assets/others.svg';
 const Features = ({ icon, children, link }) => {
   return (
     <>
-      <a href={link}>
+      <Link to={link} className={styles.link}>
         <div className={styles.flex}>
           <div className={styles.container}>
             {icon === 'location' ? (
@@ -38,7 +39,7 @@ const Features = ({ icon, children, link }) => {
           </div>
           {children}
         </div>
-      </a>
+      </Link>
     </>
   );
 };
