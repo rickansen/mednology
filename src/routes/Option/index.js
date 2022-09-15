@@ -9,19 +9,15 @@ const Option = () => {
       <div className={styles.imgContainer}>
         <img src="https://via.placeholder.com/134?text=Logo" alt="logo"></img>
       </div>
-      <div className={styles.option}>
-        <img
-          src="https://via.placeholder.com/158x191?text=Human+photo"
-          alt="Human"
-          className={styles.img}
-        ></img>
-        <img
-          src="https://via.placeholder.com/158x191?text=Pet+photo"
-          alt="Pet"
-          className={styles.img}
-        ></img>
+
+      <div className={styles.flex}>
+        <div className={styles.option}>
+          <div className={styles.placeholder}></div>
+          <div className={styles.placeholder}></div>
+        </div>
+
+        <Button link="/home">CONTINUE</Button>
       </div>
-      <Button link="/home">CONTINUE</Button>
     </>
   );
 };

@@ -4,7 +4,7 @@
     align-items: center;
     gap: 15px;
     padding-left: 20px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .input {
@@ -17,6 +17,7 @@
 
 form {
     position: relative;
+    margin: 5px 0;
 }
 .search {
     position: absolute;

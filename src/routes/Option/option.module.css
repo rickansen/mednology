@@ -1,12 +1,12 @@
 .imgContainer {
     margin-top: 124px;
-    margin-bottom: 97px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
 .option {
     display: flex;
-    gap: 9px;
+    gap: 10px;
     justify-content: center;
     margin-bottom: 10px;
 }
@@ -14,3 +14,17 @@
 .img {
     border-radius: 20px;
 }
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.placeholder {
+    height: 50vw;
+    width: 43vw;
+    background-color: rgb(170, 170, 170);
+    border-radius: 20px;
+}
+

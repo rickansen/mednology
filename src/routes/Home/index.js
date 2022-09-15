@@ -23,15 +23,20 @@ const Home = () => {
         src="https://via.placeholder.com/375x180?text=Promo"
         alt="Promos"
       ></img>
-      <div className={styles.container}>
-        <Features icon="location">Nearby Stores</Features>
-        <Features icon="release">New Release</Features>
-        <Features icon="membership">Membership</Features>
-        <Features icon="promos">Promos</Features>
-        <Features icon="teleconsult">Tele Consultation</Features>
-        <Features icon="remind">Reminders</Features>
-        <Features icon="convert">Brand - Generic</Features>
-        <Features icon="others">Others</Features>
+      <div>
+        <div className={styles.container}>
+          <Features icon="location">Nearby Stores</Features>
+          <Features icon="release">New Release</Features>
+          <Features icon="membership">Membership</Features>
+          <Features icon="promos">Promos</Features>
+        </div>
+
+        <div className={styles.container}>
+          <Features icon="teleconsult">Tele Consultation</Features>
+          <Features icon="remind">Reminders</Features>
+          <Features icon="convert">Brand - Generic</Features>
+          <Features icon="others">Others</Features>
+        </div>
       </div>
     </>
   );
