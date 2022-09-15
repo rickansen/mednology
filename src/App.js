@@ -10,7 +10,7 @@ import Membership from './routes/Membership';
 import Promos from './routes/Promos';
 import Teleconsultation from './routes/Teleconsultation';
 import Reminder from './routes/Reminder';
-import Converter from './routes/Reminder';
+import Converter from './routes/Converter';
 import Others from './routes/Others';
 
 const App = () => {
