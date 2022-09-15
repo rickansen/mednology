@@ -1,0 +1,15 @@
+.menu {
+    background-color: rgb(122, 122, 122);
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+}
+
+.icon {
+    transform: scale(1.3);
+}
