@@ -1,6 +1,6 @@
 .imgContainer {
     margin-top: 124px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,10 +24,29 @@
     gap: 20px;
 }
 
-.placeholder {
-    height: 50vw;
-    width: 43vw;
-    background-color: rgb(170, 170, 170);
-    border-radius: 20px;
+.img {
+    width: 100%;
+}
+
+.picContainer {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.picContainer:active {
+    transform: scale(1.15);
+}
+
+.q {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
