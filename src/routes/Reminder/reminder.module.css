@@ -1,0 +1,41 @@
+.body {
+    padding-bottom: 65px;
+}
+
+.add {
+    color: red;
+}
+
+.container {
+    width: 60vw;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.img {
+    width: 100%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(100, 100, 100);
+    font-weight: bold;
+    color: white;
+}
+
+.btn2 {
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    font-weight: bold;
+    color: white;
+}
