@@ -1,0 +1,12 @@
+.body {
+    padding-bottom: 65px;
+}
+
+.productContainer {
+    display: flex;
+    width: 89.33vw;
+    justify-content: space-between;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
