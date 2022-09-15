@@ -2,12 +2,14 @@ import React from 'react';
 import styles from './option.module.css';
 
 import Button from '../../component/Button/button';
+import Logo from '../../assets/logo.png';
 
 const Option = () => {
   return (
     <>
       <div className={styles.imgContainer}>
-        <img src="https://via.placeholder.com/134?text=Logo" alt="logo"></img>
+        <img src={Logo} alt="Logo" width="134" height="134" />
+        <span>MEDNOLOGY</span>
       </div>
 
       <div className={styles.flex}>

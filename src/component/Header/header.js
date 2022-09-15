@@ -4,6 +4,7 @@ import styles from './header.module.css';
 import { Link } from 'react-router-dom';
 import { ReactComponent as Menu } from '../../assets/hamburger-menu.svg';
 import { ReactComponent as Back } from '../../assets/back.svg';
+import { ReactComponent as Notification } from '../../assets/notification.svg';
 
 const Header = ({ icon, children }) => {
   return (
@@ -18,7 +19,7 @@ const Header = ({ icon, children }) => {
         )}
         <h1>{children}</h1>
 
-        <Menu />
+        <Notification />
       </div>
     </>
   );

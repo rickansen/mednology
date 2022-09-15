@@ -4,6 +4,8 @@ import styles from './home.module.css';
 import Header from '../../component/Header/header';
 import Features from './Features/features';
 
+import { Link } from 'react-router-dom';
+
 import { ReactComponent as Next } from '../../assets/next.svg';
 import { ReactComponent as Search } from '../../assets/search.svg';
 import { ReactComponent as RightArrow } from '../../assets/right-arrow.svg';
@@ -62,7 +64,10 @@ const Home = () => {
           <div className={styles.placeholder}></div>
           <div className={styles.placeholder}></div>
           <div className={styles.placeholder}></div>
-          <RightArrow />
+
+          <Link to="/NewRelease">
+            <RightArrow />
+          </Link>
         </div>
       </div>
     </>
