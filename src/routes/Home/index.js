@@ -6,6 +6,7 @@ import Features from './Features/features';
 
 import { ReactComponent as Next } from '../../assets/next.svg';
 import { ReactComponent as Search } from '../../assets/search.svg';
+import { ReactComponent as RightArrow } from '../../assets/right-arrow.svg';
 
 const Home = () => {
   return (
@@ -36,6 +37,16 @@ const Home = () => {
           <Features icon="remind">Reminders</Features>
           <Features icon="convert">Brand - Generic</Features>
           <Features icon="others">Others</Features>
+        </div>
+      </div>
+
+      <div className={styles.newRelease}>
+        <h2 className={styles.header}>NEW RELEASES</h2>
+        <div className={styles.placeholderContainer}>
+          <div className={styles.placeholder}></div>
+          <div className={styles.placeholder}></div>
+          <div className={styles.placeholder}></div>
+          <RightArrow />
         </div>
       </div>
     </>
