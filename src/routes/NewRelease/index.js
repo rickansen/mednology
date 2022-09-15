@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './newRelease.module.css';
+//import styles from './newRelease.module.css';
 
 import Header from '../../component/Header/header';
 
