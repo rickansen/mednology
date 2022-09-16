@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './login.module.css';
 
+import Doctor from '../../assets/doctor.webp';
 import Button from '../../component/Button/button';
 import Logo from '../../assets/logo.png';
 
@@ -16,11 +17,7 @@ const Login = () => {
         <Button link="/Option">Signup</Button>
         <Button link="/Option">Continue as Guest</Button>
       </div>
-      <img
-        src="https://via.placeholder.com/375x213?text=Random_image"
-        alt="logo"
-        className={styles.btmImg}
-      ></img>
+      <img src={Doctor} alt="logo" className={styles.btmImg}></img>
     </>
   );
 };
