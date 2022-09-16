@@ -16,4 +16,10 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    box-shadow: 0 5px 10px  rgb(134, 134, 134);
+}
+
+.container:active{
+    transform: scale(1.05);
+    box-shadow: none;
 }
