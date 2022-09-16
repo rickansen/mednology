@@ -54,7 +54,7 @@ const Home = () => {
             </Features>
           </div>
 
-          <div className={styles.container}>
+          <div className={`${styles.container} ${styles.btm}`}>
             <Features icon="teleconsult" link="/Teleconsultation">
               Tele Consultation
             </Features>

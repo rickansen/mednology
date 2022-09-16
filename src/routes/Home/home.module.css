@@ -41,10 +41,13 @@ form {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 89.33vw;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
     padding-top: 20px;
 }
 
+.btm {
+    padding-bottom: 20px;
+}
 .newRelease{
     width: 100vw;
     background-color: white;
