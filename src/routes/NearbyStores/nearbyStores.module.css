@@ -34,10 +34,11 @@
     border: 1px solid black;
     border-radius: 5px;
     height: 40px;
+    background-color: 4783c2;
 }
 
 .black {
-    background-color: rgb(100, 100, 100);
+    background-color: #376089;
     font-weight: bold;
     color: white;
 }
