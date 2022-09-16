@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './comp.module.css';
 
-const Comp = ({ title, desc, benefits, img }) => {
+const Comp = ({ title, img }) => {
   return (
     <>
       <div className={styles.body}>
@@ -10,8 +10,6 @@ const Comp = ({ title, desc, benefits, img }) => {
 
           <div className={styles.descContainer}>
             <h2 className={styles.title}>{title}</h2>
-            <p>{desc}</p>
-            <span className={styles.benefits}>{benefits}</span>
           </div>
         </div>
       </div>

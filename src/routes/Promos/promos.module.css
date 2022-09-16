@@ -6,4 +6,18 @@
     width: 89.33vw;
     margin: 20px auto;
     font-size: 23px;
+    font-weight: bold;
+}
+
+.banner {
+    width: 100vw;
+}
+
+.compContainer {
+    width: 89.33vw;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
