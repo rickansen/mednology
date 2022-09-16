@@ -1,0 +1,46 @@
+.body {
+    width: 89.33vw;
+    margin: 20px auto;
+    padding-bottom: 75px;
+}
+
+.table,
+.table td {
+  border: 1px solid #cccccc;
+}
+
+.table td {
+  height: 80px;
+  width: 89.33vw;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header {
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #4783c2;
+    color: white;
+    height: 65px;
+    vertical-align: middle;
+}
+
+.alt {
+    background-color: rgb(223, 223, 223);
+}
+
+.input {
+    width: 89.33vw;
+    border: 0.5px solid black;
+    height: 55px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.search {
+    position: absolute;
+    top: 38px;
+    left: 19px;
+    transform: scale(1.4);
+}
