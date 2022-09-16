@@ -1,0 +1,30 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 43vw;
+    max-width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img {
+    width: 90%;
+    padding: 5px;
+}
+.descContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    gap: 5px;
+}
+
+.name {
+    font-size: 17px;
+}
+
+.desc {
+    font-size: 12px;
+}
+
+.price {
+    font-weight: bold;
+}

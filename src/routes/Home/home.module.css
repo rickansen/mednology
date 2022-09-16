@@ -51,14 +51,15 @@ form {
 .newRelease{
     width: 100vw;
     background-color: white;
+    margin-top: 20px;
 }
 
 .header{
     width: 89.33vw;
     margin: 0 auto;
-    padding-top: 20px;
     font-size: 23px;
     font-weight: bold;
+    padding-top: 20px;
 }
 
 .placeholderContainer {
@@ -77,4 +78,13 @@ padding: 20px 0;
 
 .promoPmat {
     width: 100vw;
+}
+
+.productContainer {
+    display: flex;
+    width: 89.33vw;
+    justify-content: space-around;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    gap: 10px;
 }

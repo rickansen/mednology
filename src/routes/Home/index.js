@@ -5,9 +5,11 @@ import { Link } from 'react-router-dom';
 import NewRelease1 from '../../assets/new-release1.webp';
 import NewRelease2 from '../../assets/new-release2.webp';
 import NewRelease3 from '../../assets/new-release3.webp';
+import Product from '../../assets/product.webp';
 
 import Header from '../../component/Header/header';
 import Menu from '../../component/Menu/menu';
+import Item from './item/item';
 import Features from './Features/features';
 
 import PromoPmat from '../../assets/promo-pmat1.webp';
@@ -93,6 +95,21 @@ const Home = () => {
               <RightArrow />
             </Link>
           </div>
+        </div>
+
+        <div className={styles.productContainer}>
+          <Item name="Product 1" price="P100" img={Product}></Item>
+          <Item name="Product 2" price="P129" img={Product}></Item>
+          <Item name="Product 3" price="P15" img={Product}></Item>
+          <Item name="Product 4" price="P10" img={Product}></Item>
+          <Item name="Product 5" price="P12" img={Product}></Item>
+          <Item name="Product 6" price="P17" img={Product}></Item>
+          <Item name="Product 7" price="P48" img={Product}></Item>
+          <Item name="Product 8" price="P99" img={Product}></Item>
+          <Item name="Product 9" price="P100" img={Product}></Item>
+          <Item name="Product 10" price="P4" img={Product}></Item>
+          <Item name="Product 11" price="P7" img={Product}></Item>
+          <Item name="Product 12" price="P13" img={Product}></Item>
         </div>
       </div>
     </>
