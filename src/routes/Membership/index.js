@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './membership.module.css';
 
-import Logo from '../../assets/logo.png';
 import Membership1 from '../../assets/membership1.webp';
 import Membership2 from '../../assets/membership2.webp';
 import Membership3 from '../../assets/membership3.webp';
