@@ -21,8 +21,8 @@ const NearbyStores = () => {
           <div>
             <form>
               <img src={Location} className={styles.pin} alt="search icon" />
-              <input className={styles.input} />
-            </form>{' '}
+              <input className={styles.input} defaultValue="        " />
+            </form>
             <div className={styles.buttonContainer}>
               <select className={styles.button}>
                 <option>5km away</option>

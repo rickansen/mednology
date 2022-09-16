@@ -23,7 +23,7 @@ const Home = () => {
           <Next />
         </div>
         <form>
-          <input className={styles.input} />
+          <input className={styles.input} defaultValue="        " />
           <Search className={styles.search} />
         </form>
         <img
