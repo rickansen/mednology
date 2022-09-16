@@ -1,5 +1,5 @@
 .menu {
-    background: linear-gradient(white, rgb(214, 229, 255));
+    background: #d2dfed;
     position: fixed;
     bottom: 0;
     z-index: 10;
