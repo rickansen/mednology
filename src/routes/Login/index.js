@@ -17,7 +17,9 @@ const Login = () => {
         <Button link="/Option">Signup</Button>
         <Button link="/Option">Continue as Guest</Button>
       </div>
-      <img src={Doctor} alt="logo" className={styles.btmImg}></img>
+      <div className={styles.imgContainer}>
+        <img src={Doctor} alt="logo" className={styles.btmImg}></img>
+      </div>
     </>
   );
 };

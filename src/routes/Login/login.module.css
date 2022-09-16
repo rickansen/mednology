@@ -14,8 +14,9 @@
 }
 
 .btmImg {
-position: absolute;
+position: fixed;
 bottom: 0;
-width: 100vw;
-max-width: 380px;
+width: fit-content;
+max-width: 375px;
+margin: 0 auto;
 }
