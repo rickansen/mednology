@@ -64,8 +64,8 @@ const Home = () => {
             <Features icon="convert" link="/Converter">
               Brand - Generic
             </Features>
-            <Features icon="others" link="/Others">
-              Others
+            <Features icon="others" link="/Partners">
+              Partners
             </Features>
           </div>
         </div>

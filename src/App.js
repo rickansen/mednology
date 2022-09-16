@@ -11,7 +11,7 @@ import Promos from './routes/Promos';
 import Teleconsultation from './routes/Teleconsultation';
 import Reminder from './routes/Reminder';
 import Converter from './routes/Converter';
-import Others from './routes/Others';
+import Partners from './routes/Partners';
 
 const App = () => {
   return (
@@ -27,7 +27,7 @@ const App = () => {
       <Route path="/Teleconsultation" element={<Teleconsultation />} />
       <Route path="/Reminder" element={<Reminder />} />
       <Route path="/Converter" element={<Converter />} />
-      <Route path="/Others" element={<Others />} />
+      <Route path="/Partners" element={<Partners />} />
     </Routes>
   );
 };
