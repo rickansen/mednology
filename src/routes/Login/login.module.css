@@ -1,9 +1,6 @@
-.body {
-    padding-bottom: 80px;
-}
 .imgContainer {
     margin-top: 94px;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
