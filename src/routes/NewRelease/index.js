@@ -28,12 +28,6 @@ const NewRelease = () => {
         <Item name="IV" price="P1000" img={NewRelease3}></Item>
         <Item name="Heart Rate Monitor" price="700" img={NewRelease4}></Item>
         <Item name="Thermometer" price="P200" img={NewRelease5}></Item>
-        <Item
-          name="Brand Y Capsule"
-          desc="Brand Y Generic Name"
-          price="P150"
-          img={NewRelease6}
-        ></Item>
       </div>
     </div>
   );
