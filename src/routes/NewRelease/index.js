@@ -1,11 +1,16 @@
 import React from 'react';
 import styles from './newRelease.module.css';
 
+import NewRelease1 from '../../assets/new-release1.webp';
+import NewRelease2 from '../../assets/new-release2.webp';
+import NewRelease3 from '../../assets/new-release3.webp';
+import NewRelease4 from '../../assets/new-release4.webp';
+import NewRelease5 from '../../assets/new-release5.webp';
+import NewRelease6 from '../../assets/product.webp';
+
 import Header from '../../component/Header/header';
 import Menu from '../../component/Menu/menu';
 import Item from './item/item';
-
-//import { ReactComponent as Next } from '../../assets/next.svg';
 
 const NewRelease = () => {
   return (
@@ -13,14 +18,22 @@ const NewRelease = () => {
       <Header icon="back">NEW RELEASE</Header>
       <Menu />
       <div className={styles.productContainer}>
-        <Item name="Brand name 1" desc="Generic Name 1" price="P200"></Item>
-        <Item name="Brand name 2" desc="Generic Name 2" price="P220"></Item>
-        <Item name="Brand name 3" desc="Generic Name 3" price="P231"></Item>
-        <Item name="Brand name 4" desc="Generic Name 4" price="P220"></Item>
-        <Item name="Brand name 5" desc="Generic Name 5" price="P123"></Item>
-        <Item name="Brand name 6" desc="Generic Name 6" price="P256"></Item>
-        <Item name="Brand name 7" desc="Generic Name 7" price="P675"></Item>
-        <Item name="Brand name 8" desc="Generic Name 8" price="P111"></Item>
+        <Item name="Nebulizer" price="P1500" img={NewRelease1}></Item>
+        <Item
+          name="Pill Brand"
+          desc="Pill Generic Name"
+          price="P1000"
+          img={NewRelease2}
+        ></Item>
+        <Item name="IV" price="P1000" img={NewRelease3}></Item>
+        <Item name="Heart Rate Monitor" price="700" img={NewRelease4}></Item>
+        <Item name="Thermometer" price="P200" img={NewRelease5}></Item>
+        <Item
+          name="Brand Y Capsule"
+          desc="Brand Y Generic Name"
+          price="P150"
+          img={NewRelease6}
+        ></Item>
       </div>
     </div>
   );

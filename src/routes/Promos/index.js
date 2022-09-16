@@ -15,7 +15,7 @@ const Promos = () => {
   return (
     <>
       <div className={styles.body}>
-        <Header icon="back">Promos</Header>
+        <Header icon="back">PROMOS</Header>
         <Menu />
         <img
           src={PromoPic}
