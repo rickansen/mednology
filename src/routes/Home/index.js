@@ -18,14 +18,17 @@ const Home = () => {
       <div className={styles.body}>
         <Header icon="menu">MEDNOLOGY</Header>
         <Menu />
-        <div className={styles.address}>
-          <span>Deliver to 123 House, Street, City</span>
-          <Next />
+        <div className={styles.preBanner}>
+          <div className={styles.address}>
+            <span>Deliver to 123 House, Street, City</span>
+            <Next />
+          </div>
+          <form>
+            <input className={styles.input} defaultValue="        " />
+            <Search className={styles.search} />
+          </form>
         </div>
-        <form>
-          <input className={styles.input} defaultValue="        " />
-          <Search className={styles.search} />
-        </form>
+
         <img
           className={styles.promoPmat}
           src={PromoPmat}
