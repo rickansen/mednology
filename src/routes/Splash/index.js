@@ -1,19 +1,20 @@
 import React from 'react';
 import styles from './splash.module.css';
 
-import Button from '../../component/Button/button';
-import Logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
+
+import { ReactComponent as Logo } from '../../assets/diy-logo.svg';
 
 const Splash = () => {
   return (
-    <>
-      <div className={styles.imgContainer}>
-        <img src={Logo} alt="Logo" width="200" />
-        <span>MEDNOLOGY</span>
+    <Link to="/Login" className={styles.link}>
+      <div className={styles.body}>
+        <div className={styles.imgContainer}>
+          <Logo className={styles.logo} />
+          <span className={styles.header}>MEDNOLOGY</span>
+        </div>
       </div>
-
-      <Button link="Login">GET STARTED</Button>
-    </>
+    </Link>
   );
 };
 
