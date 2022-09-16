@@ -2,6 +2,10 @@ import React from 'react';
 import styles from './home.module.css';
 import { Link } from 'react-router-dom';
 
+import NewRelease1 from '../../assets/new-release1.webp';
+import NewRelease2 from '../../assets/new-release2.webp';
+import NewRelease3 from '../../assets/new-release3.webp';
+
 import Header from '../../component/Header/header';
 import Menu from '../../component/Menu/menu';
 import Features from './Features/features';
@@ -69,9 +73,21 @@ const Home = () => {
         <div className={styles.newRelease}>
           <h2 className={styles.header}>NEW RELEASES</h2>
           <div className={styles.placeholderContainer}>
-            <div className={styles.placeholder}></div>
-            <div className={styles.placeholder}></div>
-            <div className={styles.placeholder}></div>
+            <img
+              src={NewRelease1}
+              className={styles.placeholder}
+              alt="new release"
+            />
+            <img
+              src={NewRelease2}
+              className={styles.placeholder}
+              alt="new release"
+            />
+            <img
+              src={NewRelease3}
+              className={styles.placeholder}
+              alt="new release"
+            />
 
             <Link to="/NewRelease">
               <RightArrow />
