@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './membership.module.css';
 
 import Logo from '../../assets/logo.png';
+import Membership1 from '../../assets/membership1.webp';
+import Membership2 from '../../assets/membership2.webp';
+import Membership3 from '../../assets/membership3.webp';
 
 import Header from '../../component/Header/header';
 import Menu from '../../component/Menu/menu';
@@ -21,19 +24,19 @@ const Membership = () => {
         title="Membership Title"
         desc="Membership description - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "
         benefits="Benefits..."
-        logo={Logo}
+        logo={Membership1}
       ></Cards>
       <Cards
         title="Membership Title"
         desc="Membership description - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "
         benefits="Benefits..."
-        logo={Logo}
+        logo={Membership2}
       ></Cards>
       <Cards
         title="Membership Title"
         desc="Membership description - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "
         benefits="Benefits..."
-        logo={Logo}
+        logo={Membership3}
       ></Cards>
     </div>
   );
