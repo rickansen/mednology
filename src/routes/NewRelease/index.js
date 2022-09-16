@@ -6,7 +6,6 @@ import NewRelease2 from '../../assets/new-release2.webp';
 import NewRelease3 from '../../assets/new-release3.webp';
 import NewRelease4 from '../../assets/new-release4.webp';
 import NewRelease5 from '../../assets/new-release5.webp';
-import NewRelease6 from '../../assets/product.webp';
 
 import Header from '../../component/Header/header';
 import Menu from '../../component/Menu/menu';
