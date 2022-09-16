@@ -38,7 +38,7 @@ const Home = () => {
           src={PromoPmat}
           alt="Promo Pubmat"
         ></img>
-        <div>
+        <div className={styles.featCon}>
           <div className={styles.container}>
             <Features icon="location" link="/NearbyStores">
               Nearby Stores

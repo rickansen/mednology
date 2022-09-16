@@ -32,16 +32,22 @@ form {
     left: 8vw;
 }
 
+.featCon {
+    background-color: white
+}
+
 .container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 89.33vw;
-    margin: 20px auto;
+    margin: 0 auto 20px auto;
+    padding-top: 20px;
 }
 
 .newRelease{
     width: 100vw;
+    background-color: white;
 }
 
 .header{

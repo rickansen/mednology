@@ -4,9 +4,13 @@
     padding-bottom: 75px;
 }
 
+body {
+    background-color: rgb(235, 235, 235);
+}
+
 .table,
 .table td {
-  border: 1px solid #cccccc;
+  border: 1px solid #a1a1a1;
 }
 
 .table td {
@@ -26,7 +30,7 @@
 }
 
 .alt {
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(255, 255, 255);
 }
 
 .input {

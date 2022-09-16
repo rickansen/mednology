@@ -4,16 +4,20 @@
     width: 45vw;
     gap: 10px;
     align-items: center;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .img {
-    width: 100%;
+    width: 90%;
+    padding-top: 5%;
 }
 
 .descContainer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-bottom: 5%;
 }
 
 .title {
