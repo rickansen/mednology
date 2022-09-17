@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 import ForMe from '../../assets/for-me.webp';
 import ForMyPet from '../../assets/for-my-pet.webp';
-import Button from '../../component/Button/button';
 import Logo from '../../assets/logo.png';
 
 const Option = () => {
@@ -38,8 +37,6 @@ const Option = () => {
               <span>My Pet</span>
             </div>
           </div>
-
-          <Button link="/home">CONTINUE</Button>
         </div>
       </Link>
     </>
