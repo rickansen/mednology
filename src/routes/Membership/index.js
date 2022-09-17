@@ -20,19 +20,19 @@ const Membership = () => {
         <span className={styles.pad}>MY SUBSCRIPTION</span>
       </div>
       <Cards
-        title="Membership Title"
+        title="GOLD Membership Card"
         desc="Membership description - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "
         benefits="Benefits..."
         logo={Membership1}
       ></Cards>
       <Cards
-        title="Membership Title"
+        title="SILVER Membership Card"
         desc="Membership description - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "
         benefits="Benefits..."
         logo={Membership2}
       ></Cards>
       <Cards
-        title="Membership Title"
+        title="BRONZE Membership Card"
         desc="Membership description - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "
         benefits="Benefits..."
         logo={Membership3}
