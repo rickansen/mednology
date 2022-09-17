@@ -14,9 +14,22 @@
 }
 
 .btmImg {
-position: fixed;
-bottom: 0;
-width: fit-content;
-max-width: 335px;
-margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    width: fit-content;
+    max-width: 335px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    .imgContainer {
+        margin: 0;
+        padding-top: 94px;
+        margin-bottom: 90px;
+    }
+
+    .body  {
+        height: 100vh;
+    }
+    
 }

@@ -24,3 +24,9 @@
 .line {
    border-bottom: 2px solid #355e86;
 }
+
+@media only screen and (min-width: 1024px) {
+    .tab {
+        width: 90%;
+    }
+}

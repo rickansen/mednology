@@ -45,3 +45,27 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  background-color: rgb(235, 235, 235);
+}
+
+@media only screen and (min-width: 1024px) {
+
+    body {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    html {
+        background-color: white;
+    }
+}
+  

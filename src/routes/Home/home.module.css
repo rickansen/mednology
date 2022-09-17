@@ -73,7 +73,7 @@ form {
 .placeholder {
     width: 25vw;
     height: 25vw;
-padding: 20px 0;
+    padding: 20px 0;
 }
 
 .promoPmat {
@@ -88,3 +88,50 @@ padding: 20px 0;
     flex-wrap: wrap;
     gap: 10px;
 }
+
+@media only screen and (min-width: 1024px) {
+
+    .container {
+     width: 90%;
+    }
+
+    .newRelease{
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .placeholderContainer {
+        width: 90%;
+    }
+
+    
+    .placeholder {
+        width: 25%;
+        height: 25%;
+    }
+
+    .input {
+        height: 35px;
+        width: 90%;
+    }
+    .promoPmat {
+        width: 100%;
+    }
+
+    .header {
+       width: 90%;
+    }
+    
+    .address {
+        width: 90%;
+    }
+
+    .search {
+        left: 8%;
+    }
+
+    .productContainer {
+        width: 90%;
+    }
+
+ }

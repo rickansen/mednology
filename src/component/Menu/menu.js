@@ -11,20 +11,17 @@ import { ReactComponent as Mail } from '../../assets/mail.svg';
 
 const Menu = () => {
   return (
-    <>
-      <div className={styles.menu}>
-        {' '}
-        <Link to="/">
-          <Home className={styles.icon} />
-        </Link>
-        <User className={styles.icon} />
-        <Link to="/Reminder">
-          <RemindMenu className={styles.icon} />
-        </Link>
-        <Mail className={styles.icon} />
-        <Cart className={styles.icon} />
-      </div>
-    </>
+    <div className={styles.menu}>
+      <Link to="/">
+        <Home className={styles.icon} />
+      </Link>
+      <User className={styles.icon} />
+      <Link to="/Reminder">
+        <RemindMenu className={styles.icon} />
+      </Link>
+      <Mail className={styles.icon} />
+      <Cart className={styles.icon} />
+    </div>
   );
 };
 

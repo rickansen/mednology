@@ -10,10 +10,11 @@
     width: 90%;
     padding: 5px;
 }
+
 .descContainer {
     display: flex;
     flex-direction: column;
-    padding: 2vw 2vw;
+    padding: 2vw;
     gap: 5px;
 }
 
@@ -27,4 +28,14 @@
 
 .price {
     font-weight: bold;
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 43%;
+    }
+
+    .descContainer {
+        padding: 2%;
+    }
 }

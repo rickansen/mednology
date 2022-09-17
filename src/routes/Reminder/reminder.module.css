@@ -2,17 +2,12 @@
     padding-bottom: 65px;
 }
 
-.add {
-    color: red;
-}
-
 .container {
     width: 60vw;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
-
 }
 
 .img {
@@ -38,4 +33,10 @@
     background-color: #376089;
     font-weight: bold;
     color: white;
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 60%;
+    }
 }
