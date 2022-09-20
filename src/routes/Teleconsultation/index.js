@@ -7,7 +7,7 @@ import Header from '../../component/Header/header';
 import Menu from '../../component/Menu/menu';
 const Teleconsultation = () => {
   return (
-    <>
+    <div className={styles.body}>
       <Header icon="back">TELECONSULTATION</Header>
       <Menu />
 
@@ -28,7 +28,7 @@ const Teleconsultation = () => {
         </label>
         <button className={styles.button}>Next</button>
       </form>
-    </>
+    </div>
   );
 };
 
